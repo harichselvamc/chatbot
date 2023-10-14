@@ -1,7 +1,6 @@
 streamlit
 nltk
 numpy
-pickle
 keras
 tensorflow
 pandas
