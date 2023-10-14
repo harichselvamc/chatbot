@@ -1,0 +1,268 @@
+{
+        "intents": [
+          {
+            "tag": "greeting",
+            "patterns": [
+              "Hi",
+              "How are you",
+              "Is anyone there?",
+              "Hello",
+              "Good day"
+            ],
+            "responses": [
+              "Hello, thanks for visiting",
+              "Good to see you again",
+              "Hi there, how can I help?"
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "goodbye",
+            "patterns": [
+              "Bye",
+              "Goodbye"
+            ],
+            "responses": [
+              "Don't use bye"
+            ]
+          },
+          {
+            "tag": "thanks",
+            "patterns": [
+              "Thanks",
+              "Thank you",
+              "That's helpful"
+            ],
+            "responses": [
+              "Happy to help!",
+              "Any time!",
+              "My pleasure"
+            ]
+          },
+          {
+            "tag": "chatbot",
+            "patterns": [
+              "Who built this chatbot?",
+              "Tell me about Chatbot",
+              "What is this chatbot name?"
+            ],
+            "responses": [
+              "Hi, I was made by harichselvam ✨",
+              "Thanks for asking. I am designed by harichselvam.",
+              "I am a harimindscape."
+            ]
+          },
+          {
+            "tag": "location",
+            "patterns": [
+              "What is your location?",
+              "Where are you located?",
+              "What is your address?"
+            ],
+            "responses": [
+              "Everywhere with positive"
+            ]
+          },
+          {
+            "tag": "connect",
+            "patterns": [
+              "Give me your social media accounts link",
+              "Where can we connect",
+              "How can I reach out to you?",
+              "Is there any way we can connect"
+            ],
+            "responses": [
+              "You can connect me on Linkedin or Github \n Linkedin - https://www.linkedin.com/in/harichselvamc/ \n Github - https://github.com/harichselvamc",
+              "You can visit https://iamharichselvam.web.app"
+            ]
+          },
+          {
+            "tag": "movies",
+            "patterns": [
+              "Which is your favorite movie?",
+              "Suggest me some movies",
+              "Recommend movies"
+            ],
+            "responses": [
+              "3 idiots",
+              "Hera Pheri",
+              "Lage Raho Munna Bhai",
+              "OMG: Oh My God!",
+              "PK",
+              "Yeh Jawani Hai Deewani",
+              "Zindagi Na Milegi Dobara",
+              "Ludo"
+            ]
+          },
+          {
+            "tag": "about",
+            "patterns": [
+              "Who are you?",
+              "Tell me about Yourself",
+              "What is this?"
+            ],
+            "responses": [
+              "Hi, I am Harichselvam. Nice to meet you. I made this chatbot for fun and practice.",
+              "Thanks for asking. I am Harichselvam, a computer science and engineering student specializing in AI & Data Science, with a passion for coding and machine learning."
+            ]
+          },
+          {
+            "tag": "career",
+            "patterns": [
+              "Tell me about your career",
+              "What is your career objective",
+              "What are your career goals"
+            ],
+            "responses": [
+              "I am a current student at the Dr. MGR Educational and Research Institute, specializing in Computer Science and Engineering. I am keen to obtain work experience. I've completed a range of coursework that has given me a thorough grasp of my field, and I've honed my analytical and research abilities. Furthermore, I have strong communication and problem-solving abilities that I have used in both academic and professional situations."
+            ]
+          },
+          {
+            "tag": "education",
+            "patterns": [
+              "Tell me about your education",
+              "What is your educational background?",
+              "Where do you study?"
+            ],
+            "responses": [
+              "I am pursuing a Bachelor of Technology in Computer Science and Engineering with a focus on AI & Data Science at Dr. MGR Educational and Research Institute, Chennai, India. I started my program in 2021."
+            ]
+          },
+          {
+            "tag": "skills",
+            "patterns": [
+              "What are your skills?",
+              "Tell me about your skills",
+              "What can you do?"
+            ],
+            "responses": [
+              "I have a range of skills, including proficiency in programming languages like Python, C, C++, Java, R programming, JavaScript, and front-end development (HTML & CSS). I am also well-versed in SQL and Dart. In addition to technical skills, I possess strong interpersonal skills, analytical and problem-solving abilities, and organizational skills. My communication skills are a significant asset in both academic and professional settings."
+            ]
+          },
+          {
+            "tag": "languages",
+            "patterns": [
+              "What languages do you know?",
+              "Tell me about your language proficiency",
+              "How many languages can you speak?"
+            ],
+            "responses": [
+              "I am proficient in several languages, including Tamil, English, Hindi, and German."
+            ]
+          },
+          {
+            "tag": "interests",
+            "patterns": [
+              "What are your interests?",
+              "Tell me about your interests",
+              "What do you like to do in your free time?"
+            ],
+            "responses": [
+              "I have a keen interest in learning languages, problem-solving, and lateral thinking. I enjoy volunteering and have a strong initiative and public relations skills. My main areas of interest include artificial intelligence, data science, data engineering, machine learning, and front-end development."
+            ]
+          },
+          {
+            "tag": "certificates",
+            "patterns": [
+              "Tell me about your certificates",
+              "What certifications do you have?",
+              "Are you certified in any field?"
+            ],
+            "responses": [
+              "I have earned several certificates in various fields, including Data Analysis with Python, Data Analysis, Software Testing, Python Data Science, Postman Crash Course, Cognos Analytics, Python Demonstration, Scientific Computing with Python, Blockchain Foundation Program, Python for Machine Learning, Git & GitHub, Tableau Visualization, Python & Java Fundamentals, Python, Popular Applications of Data Science, Project Management Crash Course, and SQL Bootcamp."
+            ]
+          },
+          {
+            "tag": "projects",
+            "patterns": [
+              "Tell me about your projects",
+              "What projects have you worked on?",
+              "Can you share details of your projects?"
+            ],
+            "responses": [
+              "I have worked on several projects, including:\n1. Language Translator, Online Internship (2022): This Python project's goal is to translate a piece of text into another language.\n2. Heart Failure Prediction, self-initiative: Using Python, I created a predictive model to predict heart attacks based on characteristics such as age, gender, and medical history.\n3. Face Detection and Recognition Model, self-initiate: I developed a robust and accurate face detection and recognition model for real-time applications.\n4. Pneumonia Detection Machine Learning Model, self-initiative (2023): I created a machine learning model for accurate and automated identification of pneumonia in medical imaging.\n5. Hotel Booking Analysis, Self-Initiative: This project aims to analyze hotel booking data to identify patterns and trends, enabling businesses to optimize their operations and enhance customer satisfaction."
+            ]
+          },
+          {
+            "tag": "experience",
+            "patterns": [
+              "Tell me about your work experience",
+              "What is your professional experience?",
+              "Have you done any internships?"
+            ],
+            "responses": [
+              "I have gained work experience through the following roles:\n1. Online Internship (1 Month Duration) in 2022: During my internship, I used Python, Steamlit, GoogleTrans Library, and I was also familiar with personal OpenCV, PyDub. I studied artificial intelligence with data science, so I was familiar with libraries like pandas, Scikit Learn, MatPlotLib, and Seaborn.\n2. Virtual Experience - Visa | Forage (2022): I participated in the Token Service Technology Virtual Experience Program.\n3. Virtual Experience - TATA | Forage (2022): I engaged in Data Visualization, empowering businesses with effective insights.\n4. Virtual Experience - KPMG | Forage (2023): I was involved in Data Analytics consulting.\n5. Virtual Experience - Accenture | Forage (2023): I worked on Data Analytics and Visualization projects.\n6. Python Backend API | Murven Solutions (06/2023 – present): I am currently working as a Python backend developer, where I am involved in creating an image processing API using FastAPI and applying GAN concepts within an Ubuntu AWS environment."
+            ]
+          },
+          {
+            "tag": "movies",
+            "patterns": [
+              "Which is your favorite movie?",
+              "Suggest me some movies",
+              "Recommend movies"
+            ],
+            "responses": [
+              "childrens of the heaven",
+              "Red Ballon"
+            ]
+          },
+          {
+            "tag": "girlfriend",
+            "patterns": [
+              "aaf",
+              "Do you have a girlfriend?",
+              "Tell me about your girlfriend",
+              "Girlfriend",
+              "Are you in a relationship?"
+            ],
+            "responses": [
+              "Yes, I have a friend who always encourages me with her Spark.However, there are times when she forgets about me, and I  miss her during those times."
+            ]
+          },
+          {
+            "tag": "true_friends",
+            "patterns": [
+              "Tell me about your true friends",
+              "Do you have true friends?",
+              "True friends",
+              "How many true friends do you have?"
+            ],
+            "responses": [
+              "I'm lucky to have two true friends who are always there for me and offer unwavering support."
+            ]
+          },
+          {
+            "tag": "myself",
+            "patterns": [
+              "Hari",
+              "Harichselvam",
+              "Harichelavm",
+              "Harii",
+              "Harich"
+             
+            ],
+            "responses": [
+              "I'm Hari",
+              "Hello! I'm Harichselvam",
+              "I'm here to help. What is your plan for today?",
+              "You're talking to Hari, the harimindscape created by harichselvam."
+             
+            ]
+          },
+          
+          
+          
+          {
+            "tag": "contact",
+            "patterns": [
+              "How can I contact you?",
+              "What is your contact information?",
+              "Can you share your contact details?"
+            ],
+            "responses": [
+              "You can reach out to me through the following contact information:\n- Email: harichselvamc@gmail.com\n- Location: Chennai, India\n- GitHub: github.com/harichselvamc\n- Phone: +91 7598068106\n- Website: iamharichselvam.web.app"
+            ]
+          }
+        ]
+      }
+      
