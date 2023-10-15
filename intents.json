@@ -260,9 +260,23 @@
               "Can you share your contact details?"
             ],
             "responses": [
-              "You can reach out to me through the following contact information:\n- Email: harichselvamc@gmail.com\n- Location: Chennai, India\n- GitHub: github.com/harichselvamc\n- Phone: +91 7598068106\n- Website: iamharichselvam.web.app"
+              "You can reach out to me through the following contact information:\n- Email: harichselvamc@gmail.com\n- Location: Chennai, India\n- Phone: +91 7598068106\n- LinkedIn: linkedin.com/in/harichselvamc\n- GitHub: github.com/harichselvamc\n- Website: iamharichselvam.web.app",
+              "Feel free to contact me using the following details:\n- Email: harichselvamc@gmail.com\n- Location: Chennai, India\n- Phone: +91 7598068106\n- You can also connect with me on LinkedIn at linkedin.com/in/harichselvamc or visit my GitHub profile at github.com/harichselvamc",
+              "If you need to get in touch with me, here's how you can do it:\n- Email: harichselvamc@gmail.com\n- Location: Chennai, India\n- Phone: +91 7598068106\n- I'm also active on LinkedIn (linkedin.com/in/harichselvamc) and GitHub (github.com/harichselvamc). Feel free to reach out!"
+            ]
+          },
+          {
+            "tag": "address",
+            "patterns": [
+              "What is your address?",
+              "Tell me your address"
+            ],
+            "responses": [
+              "I'm currently located in Chennai, India. While I don't have a specific physical address to share, you can always reach out to me online through my email at harichselvamc@gmail.com or connect with me on LinkedIn (linkedin.com/in/harichselvamc) and GitHub (github.com/harichselvamc)."
             ]
           }
+          
+          
         ]
       }
       
