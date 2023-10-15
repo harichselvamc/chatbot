@@ -12,6 +12,7 @@ stemmer=PorterStemmer()
 import time
 
 
+nltk.download('punkt')
 
 # Initialize your chatbot model and data
 model = load_model("chatbot.pkl")

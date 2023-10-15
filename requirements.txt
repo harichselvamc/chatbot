@@ -1,6 +1,7 @@
 streamlit
 nltk
-numpy
-keras
 tensorflow
+numpy
 pandas
+torch
+keras
